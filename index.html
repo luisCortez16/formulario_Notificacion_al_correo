@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles formularios</title>
+
+
+    <style>
+        body{
+            background-image: url(https://www.fuegoyamana.com/wp-content/uploads/2017/03/CO-mini-blog-1.jpg);
+            
+        }
+
+        form{
+            border: 4px;
+            border-color: black;
+            border-radius: 50px;
+            background-color: rgba(179, 179, 189, 0.8);
+            text-align: center;
+            width: 700px;
+            height: 700px;
+        }
+        .caja{
+            font-size: 30px;
+            width: 600px;
+            height: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+   <center> <form name="Datos_generales" method="POST" data-netlify="true"><br><BR>
+       <h1>FORMULARIO DE DATOS GENERALES</h1><hr>
+       <input name="nombre" class="caja" type="text" placeholder="Digite su nombre"><br><br><hr>
+       <input name="apellido" class="caja" type="text" placeholder="Digite su apellido"><br><br><hr>
+       <h2>¿Cuál es tu color favorito?</h2>
+       <input type="radio" name="colores">&nbsp&nbspNegro
+       <input type="radio" name="colores">&nbsp&nbspBlanco
+       <input type="radio" name="colores">&nbsp&nbspRosa
+      <input type="radio" name="colores">&nbsp&nbsp Morado
+       <input type="radio" name="colores">&nbsp&nbspAmarillo<br><hr>
+
+       <h2>¿Que version de windows prefieres?</h2>
+       <input type="radio" name="versiones">&nbsp&nbsp7
+       <input type="radio" name="versiones">&nbsp&nbsp8
+       <input type="radio" name="versiones">&nbsp&nbsp10
+      <input type="radio" name="versiones">&nbsp&nbsp 11
+<br><hr>
+
+       <h2>¿Cuál es tu comidad favorita?</h2>
+       <input type="checkbox" name="comida">&nbsp&nbspPizza
+       <input type="checkbox" name="comida">&nbsp&nbspTacos
+       <input type="checkbox" name="comida">&nbsp&nbspHamburguesas
+      <input type="checkbox" name="comida">&nbsp&nbspTortas
+       <input type="checkbox" name="comida">&nbsp&nbspPupusas<br><hr>
+
+       <h2>¿Cuáles son tus lugares turisticos favorios?</h2>
+       <input type="checkbox" name="comida">&nbsp&nbspLos Chorros
+       <input type="checkbox" name="comida">&nbsp&nbspEl Cafetalon
+       <input type="checkbox" name="comida">&nbsp&nbspApulo
+      <input type="checkbox" name="comida">&nbsp&nbspRio Torola
+       <input type="checkbox" name="comida">&nbsp&nbspLa Playa<br><hr><br>
+       
+       <input type="reset" value="Borrar todas las respuestas">
+       <input type="submit" value="Enviar respuestas">
+
+    </form></center>
+</div>
+</body>
+</html>
